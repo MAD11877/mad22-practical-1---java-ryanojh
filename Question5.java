@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.*;
 public class Question5
 {
   public static void main(String[] args)
@@ -30,10 +30,10 @@ public class Question5
     int lowest = Integer.MAX_VALUE;
     int ans = 0;
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter number: ");
+    System.out.print("");
     int number = in.nextInt();
     for (int i = number; i > 0; i--){
-      System.out.print("Enter number: ");
+      System.out.print("");
       int x = in.nextInt();
       nList.add(x);
       }
